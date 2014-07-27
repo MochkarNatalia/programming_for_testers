@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="29226" started-at="2014-07-27T08:13:02Z" finished-at="2014-07-27T08:13:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="29226" started-at="2014-07-27T08:13:02Z" finished-at="2014-07-27T08:13:31Z">
+      <class name="com.example.tests.AddressCreationTests">
+        <test-method status="PASS" signature="testEmptyAddressCreation()[pri:0, instance:com.example.tests.AddressCreationTests@5f150435]" name="testEmptyAddressCreation" duration-ms="4139" started-at="2014-07-27T15:13:16Z" finished-at="2014-07-27T15:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyAddressCreation -->
+        <test-method status="PASS" signature="testNonEmptyAddressCreation()[pri:0, instance:com.example.tests.AddressCreationTests@5f150435]" name="testNonEmptyAddressCreation" duration-ms="5231" started-at="2014-07-27T15:13:20Z" finished-at="2014-07-27T15:13:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonEmptyAddressCreation -->
+      </class> <!-- com.example.tests.AddressCreationTests -->
+      <class name="com.example.tests.AddressBookBaseMethods">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.example.tests.AddressBookBaseMethods@1ff8b8f]" name="setUp" is-config="true" duration-ms="13723" started-at="2014-07-27T15:13:02Z" finished-at="2014-07-27T15:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.example.tests.AddressBookBaseMethods@1ff8b8f]" name="tearDown" is-config="true" duration-ms="316" started-at="2014-07-27T15:13:31Z" finished-at="2014-07-27T15:13:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.example.tests.AddressBookBaseMethods -->
+      <class name="com.example.tests.GroupCreationTests">
+        <test-method status="PASS" signature="testEmptyGroupCreation()[pri:0, instance:com.example.tests.GroupCreationTests@50cbc42f]" name="testEmptyGroupCreation" duration-ms="2834" started-at="2014-07-27T15:13:25Z" finished-at="2014-07-27T15:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyGroupCreation -->
+        <test-method status="PASS" signature="testNonEmptyGroupCreation()[pri:0, instance:com.example.tests.GroupCreationTests@50cbc42f]" name="testNonEmptyGroupCreation" duration-ms="2930" started-at="2014-07-27T15:13:28Z" finished-at="2014-07-27T15:13:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNonEmptyGroupCreation -->
+      </class> <!-- com.example.tests.GroupCreationTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
