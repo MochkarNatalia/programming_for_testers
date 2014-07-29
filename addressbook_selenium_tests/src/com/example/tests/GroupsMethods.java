@@ -8,8 +8,8 @@ public class GroupsMethods extends AddressBookBaseMethods{
 		driver.findElement(By.name("delete")).click();
 	  }
 
-	protected void selectGroups(int beg, int end) {
-		for(int i = beg; i <= end; i++)
+	protected void selectGroups(int begline, int endline) {
+		for(int i = begline; i <= endline; i++)
 		{
 			driver.findElement(By.xpath("(//input[@name='selected[]'])[" + i + "]")).click();
 		}

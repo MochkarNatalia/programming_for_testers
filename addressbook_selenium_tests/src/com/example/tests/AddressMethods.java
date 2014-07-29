@@ -5,19 +5,16 @@ import org.openqa.selenium.support.ui.Select;
 
 public class AddressMethods extends AddressBookBaseMethods{
 
-	protected void deleteAddress(int beg, int end) {
-		for( int i = beg; i <= end; i++)
-		{
-			driver.findElement(By.xpath("(//img[@alt='Edit'])[" + i + "]")).click();
-			driver.findElement(By.xpath("(//input[@name='update'])[2]")).click();
-		}
+	protected void deleteAddressInLineWithNumber(int numberline) {
+		driver.findElement(By.xpath("(//img[@alt='Edit'])[" + numberline + "]")).click();
+		driver.findElement(By.xpath("(//input[@name='update'])[2]")).click();
 	  }
 
 	protected void submitAddressCreation() {
 		driver.findElement(By.name("submit")).click();
 	  }
 
-	protected void fillAddressForm(AddressDate address) {
+	protected void fillAddressForm(AddressData address) {
 		driver.findElement(By.name("firstname")).clear();
 	    driver.findElement(By.name("firstname")).sendKeys(address.firstname);
 	    driver.findElement(By.name("lastname")).clear();

@@ -1,6 +1,6 @@
 package com.example.tests;
 
-public class AddressDate 
+public class AddressData 
 {
 	public String firstname;
 	public String lastname;
@@ -10,12 +10,12 @@ public class AddressDate
 	public String work;
 	public String email;
 	public String email2;
-	public Data birthdate = new Data();
+	public Date birthdate = new Date();
 	public String groupname;
 	public String address2;
 	public String phone2;
 
-	public AddressDate(String firstname, String lastname, String address,
+	public AddressData(String firstname, String lastname, String address,
 			String home, String mobule, String work, String email,
 			String email2, String day, String month, String year,
 			String groupname, String address2, String phone2) 
@@ -36,6 +36,6 @@ public class AddressDate
 		this.phone2 = phone2;
 	}
 	
-	public AddressDate() 
+	public AddressData() 
 	{}
 }

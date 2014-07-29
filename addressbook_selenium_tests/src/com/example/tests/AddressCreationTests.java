@@ -11,7 +11,7 @@ public class AddressCreationTests extends AddressMethods
     openHomePage();
     initAddressCreation();
     
-    AddressDate address = new AddressDate();
+    AddressData address = new AddressData();
 	address.firstname = "first name";
 	address.lastname = "last name";
 	address.address = "address";
@@ -30,7 +30,7 @@ public class AddressCreationTests extends AddressMethods
     fillAddressForm(address);
     submitAddressCreation();
     gotoHomePage();
-    deleteAddress(1, 1);
+    deleteAddressInLineWithNumber(1);
     gotoHomePage();
   }
   
@@ -39,11 +39,11 @@ public class AddressCreationTests extends AddressMethods
   {
     openHomePage();
     initAddressCreation();
-    AddressDate address = new AddressDate("", "", "", "", "", "", "", "", "", "", "", "", "", "");
+    AddressData address = new AddressData("", "", "", "", "", "", "", "", "", "", "", "", "", "");
     fillAddressForm(address);
     submitAddressCreation();
     gotoHomePage();
-    deleteAddress(1, 1);
+    deleteAddressInLineWithNumber(1);
     gotoHomePage();
   }
 

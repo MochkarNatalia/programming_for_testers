@@ -1,12 +1,4 @@
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+addressbook_selenium_tests/.settings/**
+addressbook_selenium_tests/bin/**
+addressbook_selenium_tests/test-output/**
+addressbook_selenium_tests/.metadata/**

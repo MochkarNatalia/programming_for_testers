@@ -11,6 +11,12 @@
           <include name="testNonEmptyAddressCreation"/>
         </methods>
       </class> <!-- com.example.tests.AddressCreationTests -->
+      <class name="com.example.tests.GroupCreationTests">
+        <methods>
+          <include name="testEmptyGroupCreation"/>
+          <include name="testNonEmptyGroupCreation"/>
+        </methods>
+      </class> <!-- com.example.tests.GroupCreationTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

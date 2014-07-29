@@ -1,15 +1,15 @@
 package com.example.tests;
 
-public class Data 
+public class Date 
 {
 	public String day;
 	public String month;
 	public String year;
 
-	public Data() 
+	public Date() 
 	{}
 	
-	public Data(String day, String month, String year) 
+	public Date(String day, String month, String year) 
 	{
 		this.day = day;
 		this.month = month;
